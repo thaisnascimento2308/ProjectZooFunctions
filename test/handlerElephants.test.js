@@ -37,4 +37,8 @@ describe('Testes da função HandlerElephants', () => {
     const result = handlerElephants('case');
     expect(result).toBe(null);
   });
+  it('Retornar um array com 4 itens ao receber o parârametro "names"', () => {
+    const result = handlerElephants('case');
+    expect(handlerElephants(result)).toHaveLength(4);
+  });
 });
