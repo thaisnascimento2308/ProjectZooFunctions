@@ -21,13 +21,13 @@ const calculateEntry = (entrants) => {
     return 0;
   }
   const totalEntrantsAge = countEntrants(entrants);
-  const { child: childPrice, adult: adultPrice, senior: seniorPrice } = data.prices;
+  const { child: childP, adult: adultP, senior: seniorP } = data.prices;
 
-  const childTotalPrice = totalEntrantsAge.child * childPrice;
-  const adultTotalPrice = totalEntrantsAge.adult * adultPrice;
-  const seniorTotalPrice = totalEntrantsAge.senior * seniorPrice;
+  const childPrice = totalEntrantsAge.child * childP;
+  const adultPrice = totalEntrantsAge.adult * adultP;
+  const seniorPrice = totalEntrantsAge.senior * seniorP;
 
-  return +(childTotalPrice + adultTotalPrice + seniorTotalPrice).toFixed(2);
+  return +(childPrice + adultPrice + seniorPrice);
 };
 
 module.exports = { calculateEntry, countEntrants };
