@@ -50,7 +50,3 @@ describe('Testes da função getOpeningHours', () => {
     expect(result).toThrow('The minutes must be between 0 and 59');
   });
 });
-
-h: (hour === 12) ? 0 : hour,
-o: (open === 12) ? 0 : open,
-c: (close === 12) ? 0 : close,
