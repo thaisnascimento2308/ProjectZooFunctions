@@ -13,9 +13,9 @@ Instale as dependências executando npm install
 
 # Requisitos
 
-## 1. Implemente a função getSpeciesByIds.
+### 1. Implemente a função getSpeciesByIds.
 Implemente a função getSpeciesByIds para buscar as espécies dos animais por meio de um ID e retorne um array contendo todos os animais dessa espécie.
-## 2. Implemente a função getAnimalsOlderThan.
+### 2. Implemente a função getAnimalsOlderThan.
 Implemente a função getAnimalsOlderThan que deve receber uma espécie e uma idade como parâmetro, e então retornar se todos os animais dessa espécie possuem essa idade ou são mais velhos.
 ## 3. Implemente a função getEmployeeByName.
 Implemente a função getEmployeeByName que deve buscar por pessoas colaboradoras através de seu primeiro ou último nome.
